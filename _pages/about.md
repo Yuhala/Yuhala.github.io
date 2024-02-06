@@ -24,7 +24,7 @@ Hi there! Thanks for taking the time to visit. I'm a PhD candidate at the Univer
 
 Before joining UniNE, I earned a Computer Engineering diploma from the National Advanced School of Engineering (2018), Yaounde, Cameroon.
 
-I am an electronics hobbyists and a great fan of Arduinos, Raspberry Pis and all the interesting projects that come with it.\
+I am an electronics hobbyist and a great fan of Arduinos, Raspberry Pis and all the interesting projects that come with it.
 
 
 
