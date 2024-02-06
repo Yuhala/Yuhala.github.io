@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-04-05
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+[EuroSys Doctoral Workshop, Rennes, France.](https://sites.google.com/view/eurodw22)
