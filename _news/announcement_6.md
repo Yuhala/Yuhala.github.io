@@ -8,5 +8,4 @@ related_posts: false
 
 [Confidential computing workshop, Ascona, Switzerland, Oct 1-4](https://pages.cs-gitlab.unine.ch/csf-2023/)
 
-
 ---
