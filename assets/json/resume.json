@@ -1,60 +1,60 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Peterson Yuhala",
+    "label": "Postdoctoral researcher, CS",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "peterson.yuhala@unine.ch",
     "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "url": "https://yuhala.github.io",
+    "summary": "Software engineer and postdoctoral researcher in confidential computing",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Rue Emile Argand 11",
+      "postalCode": "2000",
+      "city": "Neuchâtel",
+      "countryCode": "Switzerland",
+      "region": "Neuchâtel"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "",
+        "username": "",
+        "url": ""
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "University of Neuchâtel",
+      "position": "Postdoctoral researcher",
+      "url": "https://www.unine.ch/sciences/home.html",
+      "startDate": "2024-04-01",
+      "endDate": "2024-03-31",
+      "summary": "Practical privacy-preserving processing",
+      "highlights": [""]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [""]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Neuchâtel, Switzerland",
+      "location": "Neuchâtel, Switzerland",
+      "url": "https://www.unine.ch/",
+      "area": "Enhancing security and performance in trusted execution environments.",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2019-04-01",
+      "endDate": "2024-03-31",
+      "score": "",
+      "courses": ["Confidential computing"]
     }
   ],
   "awards": [
@@ -67,48 +67,7 @@
     }
   ],
   "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
+    
   ],
   "publications": [
     {
