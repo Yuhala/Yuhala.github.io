@@ -4,7 +4,7 @@
     "label": "Postdoctoral researcher, CS",
     "image": "",
     "email": "peterson.yuhala@unine.ch",
-    "phone": "(912) 123-4567",
+    "phone": "",
     "url": "https://yuhala.github.io",
     "summary": "Software engineer and postdoctoral researcher in confidential computing",
     "location": {
@@ -28,7 +28,7 @@
       "position": "Postdoctoral researcher",
       "url": "https://www.unine.ch/sciences/home.html",
       "startDate": "2024-04-01",
-      "endDate": "2024-03-31",
+      "endDate": "2025-03-31",
       "summary": "Practical privacy-preserving processing",
       "highlights": [""]
     }
