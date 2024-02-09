@@ -26,7 +26,7 @@ My research work is supervised by [Prof. Pascal Felber](http://members.unine.ch/
 
 Before joining UniNE, I earned a Computer Engineering diploma from the National Advanced School of Engineering (2018), Yaounde, Cameroon.
 
-I am an electronics hobbyist and a great fan of Arduinos, Raspberry Pis, and all the interesting projects that come with these.
+In my free time I am an electronics hobbyist who loves tinkering with Raspberry Pis and Arduinos to build interesting automation projects.
 
 
 
