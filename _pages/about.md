@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi there! Thanks for taking the time to visit. I'm a PhD candidate at the University of Neuchâtel, Switzerland. My research is centered around **[confidential computing](https://www.ibm.com/topics/confidential-computing)** using trusted execution environments (TEEs). I propose tools and techniques to facilitate adoption and enhance performance of TEE technologies like Intel SGX and ARM TrustZone.
 
-My research work is supervised by [Prof. Pascal Felber](http://members.unine.ch/pascal.felber/index.html), [Dr. Valerio Schiavoni](http://members.unine.ch/valerio.schiavoni/) and [Prof. Alain Tchana](https://perso.ens-lyon.fr/alain.tchana/).
+My research work is supervised by [Prof. Pascal Felber](http://members.unine.ch/pascal.felber/index.html), [Dr. Valerio Schiavoni](http://members.unine.ch/valerio.schiavoni/), and [Prof. Alain Tchana](https://perso.ens-lyon.fr/alain.tchana/).
 
 Before joining UniNE, I earned a Computer Engineering diploma from the National Advanced School of Engineering (2018), Yaounde, Cameroon.
 
