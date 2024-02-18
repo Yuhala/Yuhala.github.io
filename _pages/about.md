@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.unine.ch/iiun/fr/home.html'>PhD candidate | University of Neuchâtel</a>
+subtitle: <a href='https://www.unine.ch/iiun/fr/home.html'>PostDoc | University of Neuchâtel</a>
 
 profile:
   align: left
