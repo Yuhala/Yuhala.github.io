@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.unine.ch/iiun/fr/home.html'>PhD candidate | University of Neuchâtel</a>
+subtitle: <a href='https://www.unine.ch/iiun/fr/home.html'>PostDoc | University of Neuchâtel</a>
 
 profile:
   align: left
@@ -20,11 +20,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi there! Thanks for taking the time to visit. I'm a PhD candidate at the University of Neuchâtel, Switzerland. My research is centered around **[confidential computing](https://www.ibm.com/topics/confidential-computing)** using trusted execution environments (TEEs). I propose tools and techniques to facilitate adoption and enhance performance of TEE technologies like Intel SGX and ARM TrustZone.
+Hi there! Thanks for taking the time to visit. I'm a postdoctoral researcher at the University of Neuchâtel (UniNE), Switzerland. I completed my **[PhD degree](assets/pdf/thesis-peterson-yuhala.pdf)** in Computer Science at UniNE in February 2024 under the supervision of [Prof. Pascal Felber](http://members.unine.ch/pascal.felber/index.html), [Dr. Valerio Schiavoni](http://members.unine.ch/valerio.schiavoni/), and [Prof. Alain Tchana](https://perso.ens-lyon.fr/alain.tchana/).
 
-My research work is supervised by [Prof. Pascal Felber](http://members.unine.ch/pascal.felber/index.html), [Dr. Valerio Schiavoni](http://members.unine.ch/valerio.schiavoni/), and [Prof. Alain Tchana](https://perso.ens-lyon.fr/alain.tchana/).
+My research is centered around **[confidential computing](https://www.ibm.com/topics/confidential-computing)**, and aims to enhance the practicality of security techniques based on trusted execution environments (TEEs) and (more recently) [homomorphic encryption](https://www.ibm.com/topics/homomorphic-encryption#:~:text=Use%20cases-,Products,without%20needing%20to%20decrypt%20it.). 
+<!---I propose tools and techniques to facilitate adoption and enhance performance of TEE technologies like Intel SGX and ARM TrustZone.-->
 
-Before joining UniNE, I earned a Computer Engineering diploma from the National Advanced School of Engineering (2018), Yaounde, Cameroon.
+Prior to UniNE, I earned a Computer Engineering diploma from the National Advanced School of Engineering (2018), Yaounde, Cameroon.
 
 In my free time I am an electronics hobbyist who loves tinkering with Raspberry Pis and Arduinos to build interesting [automation projects](https://github.com/Yuhala/pbl-electronics). When I've got a bit more breathing room, I dive into [Kali Linux](https://www.kali.org/) and explore the art of ethical hacking.
 
