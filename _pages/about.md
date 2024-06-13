@@ -13,6 +13,7 @@ profile:
     <p>B126-IIUN</p>   
     <p>2000 Neuchâtel, Switzerland</p>
     <a href='assets/pdf/cv-yuhala.pdf'>CV</a>
+    <a href='assets/pdf/thesis-peterson-yuhala.pdf'>PhD Thesis</a>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts.
