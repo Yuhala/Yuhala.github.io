@@ -20,7 +20,6 @@ latest_posts: false # includes a list of the newest posts.
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-
 Hi there! Thanks for taking the time to visit. I'm a postdoctoral researcher at the University of Neuchâtel (UniNE), Switzerland. I completed my **[PhD](assets/pdf/thesis-peterson-yuhala.pdf)** in Computer Science at UniNE in February 2024 under the supervision of [Prof. Pascal Felber](http://members.unine.ch/pascal.felber/index.html), [Dr. Valerio Schiavoni](http://members.unine.ch/valerio.schiavoni/), and [Prof. Alain Tchana](https://perso.ens-lyon.fr/alain.tchana/).
 
 My research is centered around **[confidential computing](https://www.intel.com/content/dam/www/central-libraries/us/en/documents/confidential-computing-case-studies.pdf)**, and aims to enhance the practicality of security techniques based on trusted execution environments (TEEs) and (more recently) [homomorphic encryption](https://www.ibm.com/topics/homomorphic-encryption#:~:text=Use%20cases-,Products,without%20needing%20to%20decrypt%20it.). 
