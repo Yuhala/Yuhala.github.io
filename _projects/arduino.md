@@ -2,7 +2,7 @@
 layout: page
 title: Arduino projects
 description: Remote device control with arduino MC.
-img: /assets/img/uno.jpg
+img: assets/img/uno.jpg
 redirect: https://github.com/Yuhala/arduino-projects
 importance: 1
 category: fun

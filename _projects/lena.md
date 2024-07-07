@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Image processing in C++
+description: C++ implementation for different image processing algorithms
+img: assets/img/aya.png
+redirect: https://github.com/Yuhala/image-processing-cpp
+importance: 2
+category: personal
 ---
 
 Every project has a beautiful feature showcase page.

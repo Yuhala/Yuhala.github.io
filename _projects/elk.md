@@ -2,7 +2,7 @@
 layout: page
 title: ELK stack
 description: Simbox fraud detection with the elk stack
-img: /assets/img/elk1.png
+img: assets/img/elk1.png
 redirect: https://github.com/Yuhala/elk-fraud-detection
 importance: 2
 category: work

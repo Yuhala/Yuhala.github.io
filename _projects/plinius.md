@@ -2,7 +2,7 @@
 layout: page
 title: secure ML framework
 description: secure and persistent ML with Intel SGX 
-img: /assets/img/plinius.png
+img: assets/img/secure-ml.jpg
 redirect: https://github.com/Yuhala/plinius
 importance: 1
 category: work
