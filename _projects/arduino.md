@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Arduino projects
-description: Remote device control with arduino MC.
-img: assets/img/uno.jpg
-redirect: https://github.com/Yuhala/arduino-projects
+title: Embedded development
+description: Embedded development with microcontrollers
+img: assets/img/embedded.jpg
+redirect: https://github.com/Yuhala/embedded-projects
 importance: 1
 category: fun
 ---
