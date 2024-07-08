@@ -2,9 +2,9 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Some material on my courses.
+description: Course material
 nav: true
 nav_order: 6
 ---
 
-This page is currently under construction. Cheers!
+Please visit the [Moodle server](https://moodle.unine.ch/login/index.php) of the University of Neuchatel, Switzerland.
