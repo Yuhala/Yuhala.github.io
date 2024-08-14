@@ -27,7 +27,7 @@ My research is centered around **[confidential computing](https://www.intel.com/
 
 Prior to UniNE, I earned a Computer Engineering diploma from the National Advanced School of Engineering (2018), Yaounde, Cameroon.
 
-In my free time I am an electronics hobbyist who loves tinkering with microcontrollers to build interesting [automation projects](https://github.com/Yuhala/pbl-electronics). When I've got a bit more breathing room, I dive into [Kali Linux](https://www.kali.org/) and explore the art of ethical hacking. I also manage [The Tech Hub](https://dtechub.github.io/posts/home-auto-rpi-1/), a programming and technology blog. 
+In my free time I am an electronics hobbyist who loves tinkering with microcontrollers to build interesting [automation projects](https://github.com/Yuhala/pbl-electronics). When I've got a bit more breathing room, I dive into [Kali Linux](https://www.kali.org/) and explore the art of ethical hacking. I also manage [The Tech Hub](https://dtechub.github.io), a programming and technology blog. 
 
 <!---  I am passionate about microcontrollers, embedded systems, robotics -->
 
