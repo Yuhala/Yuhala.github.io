@@ -77,7 +77,7 @@
       "endDate": "2024-03-31",
       "score": "",
       "courses": [
-        "Confidential computing"
+        "Virtualization"
       ]
     },
     {
@@ -130,6 +130,8 @@
         "Dynamic program analysis",
         "TCB reduction via program partitioning"
       ],
+      "startDate": "2022-08-01",
+      "endDate": "2023-05-20",
       "url": "https://gitlab.com/Yuhala/generic-tools"
     },
     {
@@ -139,6 +141,8 @@
         "Intel SGX switchless calls",
         "Multi-threading"
       ],
+      "startDate": "2022-03-01",
+      "endDate": "2023-02-20",
       "url": "https://gitlab.com/Yuhala/zc-switchless"
     },
     {
@@ -159,6 +163,8 @@
         "Persistent memory",
         "Intel SGX"
       ],
+      "startDate": "2019-04-01",
+      "endDate": "2020-05-20",
       "url": "https://github.com/Yuhala/plinius"
     },
     {
@@ -169,6 +175,8 @@
         "Xen hypervisor",
         "Virtualization"
       ],
+      "startDate": "2018-03-06",
+      "endDate": "2018-08-30",
       "url": "https://github.com/Yuhala/placement-simulator"
     },
     {
@@ -179,6 +187,8 @@
         "Fraud detection",
         "Docker containers"
       ],
+      "startDate": "2017-09-01",
+      "endDate": "2017-12-31",
       "url": "https://github.com/Yuhala/elk-fraud-detection"
     }
   ]
