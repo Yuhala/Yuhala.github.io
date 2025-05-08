@@ -26,11 +26,11 @@ I completed my PhD in Computer Science (*nominated for a Best Thesis Award*) on 
 My research is centered around [confidential computing](https://www.intel.com/content/dam/www/central-libraries/us/en/documents/confidential-computing-case-studies.pdf), and aims to enhance the practicality and security of trusted execution environments (TEEs).
 <!--and (more recently) [homomorphic encryption](https://www.ibm.com/topics/homomorphic-encryption#:~:text=Use%20cases-,Products,without%20needing%20to%20decrypt%20it.).-->
 <!---I propose tools and techniques to facilitate adoption and enhance performance of TEE technologies like Intel SGX and ARM TrustZone.-->
-I also do research on [processing-in-memory (PIM)](https://people.inf.ethz.ch/omutlu/pub/PrIM-UPMEM-Tutorial-Analysis-Benchmarking-SAFARI-Live-Seminar-2021-07-12-talk.pdf), a paradigm shift towards memory-centric (rather than traditional processor-centric) computing.
+I also do research on [processing-in-memory (PIM)](https://people.inf.ethz.ch/omutlu/pub/PrIM-UPMEM-Tutorial-Analysis-Benchmarking-SAFARI-Live-Seminar-2021-07-12-talk.pdf), a paradigm shift towards memory-centric (rather than traditional processor-centric) computing. Some of my current research focuses on developing software and hardware-based designs for enhancing security with PIM.
 
 Prior to UniNE, I earned a Computer Engineering diploma from the National Advanced School of Engineering (2018), Yaounde, Cameroon.
 
-In my free time I am an electronics hobbyist who loves tinkering with microcontrollers to build interesting [automation projects](https://github.com/Yuhala/pbl-electronics). When I've got a bit more breathing room, I dive into [Kali Linux](https://www.kali.org/) and explore the art of ethical hacking. I also manage [The Tech Hub](https://dtechub.github.io), a programming and technology blog. 
+In my free time I am an electronics hobbyist who loves tinkering with microcontrollers to build interesting [automation projects](https://github.com/Yuhala/pbl-electronics) or a Tech tinkerer experimenting with the latest AI tools. When I've got a bit more breathing room, I dive into [Kali Linux](https://www.kali.org/) and explore the art of ethical hacking. I also manage [The Tech Hub](https://dtechub.github.io), a programming and technology blog. 
 
 <!---  I am passionate about microcontrollers, embedded systems, robotics -->
 
