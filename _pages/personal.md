@@ -15,16 +15,17 @@ I was once an indoor cat, but then developed the love for travel. Here is a list
 - Cameroon - Yaounde, Bamenda, Douala
 - Czech Republic - Prague (2022) *did sky diving here!*
 - France - Toulouse (2018, 2019, 2021, 2023), Nice (2021), Paris (2023, 2024), Rennes (2022)
-- Germany - Frankfurt (2022), Berlin (2022)
+- Germany - Frankfurt (2022), Berlin (2022), Erlangen (2024)
 - Hungary - Budapest (2022)
 - Italy - Milan (2022), Rome (2022), Bologna (2023), Venice (2022)
 - Netherlands - Amsterdam (2023, 2025)
 - Portugal - Porto (2023)
 - Spain - Avila (2024), Madrid (2024), Sevilla (2022)
-- Switzerland - Bern, Lausanne, Geneva, Zurich, Neuchatel, Inter Laken
+- Switzerland - Bern, Lausanne, Geneva, Zurich, Neuchatel, Inter Laken (2019-2025)
 - USA - Charlotte (2024), NYC (2024)
 
 The following are on my radar!
+- Canada
 - Greece
 - Costa Rica
 - UAE
