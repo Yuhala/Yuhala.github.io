@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular  
   more_info: >
     <p>Rue Emile Argand 11</p>
-    <p>B126-IIUN</p>   
+    <p>B119-IIUN</p>   
     <p>2000 Neuchâtel, Switzerland</p>
     <a href='assets/pdf/cv-pyuhala.pdf'>CV</a>
     <a href='assets/pdf/thesis-peterson-yuhala.pdf'>PhD Thesis</a>
