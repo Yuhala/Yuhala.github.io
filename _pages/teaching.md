@@ -33,10 +33,10 @@ nav_order: 6
    - Session 8: Graph Theory
      - [Exercise-8](#)
      - [Solutions to Exercise-8](#)
-   - Session 2: Graph Algorithms
+   - Session 9: Graph Algorithm
      - [Exercise-9](#)
      - [Solutions to Exercise-9](#)
-   - Session 2: Algorithmic Complexity
+   - Session 10: Algorithmic Complexity
      - [Exercise-10](#)
      - [Solutions to Exercise-10](#)
    
