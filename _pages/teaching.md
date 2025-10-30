@@ -17,13 +17,13 @@ nav_order: 6
      - [Solutions to Exercise-2](/assets/pdf/discrete-math/ex2-solns.pdf)
    - Session 3: Rules of Inference and Methods of Proof
      - [Exercise-3](/assets/pdf/discrete-math/ex3.pdf)
-     - [Solutions to Exercise-3](/assets/pdf/discrete-math/#)
+     - [Solutions to Exercise-3](/assets/pdf/discrete-math/ex3-solns.pdf)
    - Session 4: Set Theory and Functions
-     - [Exercise-4](/assets/pdf/discrete-math/#)
-     - [Solutions to Exercise-4](/assets/pdf/discrete-math/#)
+     - [Exercise-4](/assets/pdf/discrete-math/ex4.pdf)
+     - [Solutions to Exercise-4](/assets/pdf/discrete-math/ex4-solns.pdf)
    - Session 5: Counting and Combinatorics (Part 1)
-     - [Exercise-5](/assets/pdf/discrete-math/#)
-     - [Solutions to Exercise-5](/assets/pdf/discrete-math/#)
+     - [Exercise-5](/assets/pdf/discrete-math/ex5.pdf)
+     - [Solutions to Exercise-5](/assets/pdf/discrete-math/ex5-solns.pdf)
    - Session 6: Counting and Combinatorics (Part 2)
      - [Exercise-6](/assets/pdf/discrete-math/#)
      - [Solutions to Exercise-6](/assets/pdf/discrete-math/#)
