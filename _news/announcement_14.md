@@ -6,7 +6,7 @@ inline: true
 related_posts: false
 ---
 
-[Our paper on "IM-PIR: In-Memory Private Information Retrieval" has been accepted at Middleware'25](#)
+[Our paper on "IM-PIR: In-Memory Private Information Retrieval" has been accepted at Middleware'25](https://arxiv.org/pdf/2509.06514)
 
 ---
 
