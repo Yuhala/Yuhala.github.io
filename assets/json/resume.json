@@ -23,6 +23,14 @@
     ]
   },
   "work": [
+     {
+      "name": "University of British Columbia, Vancouver",
+      "position": "Postdoctoral fellow",
+      "url": "https://systopia.cs.ubc.ca/",
+      "startDate": "2026-04-01",
+      "endDate": "2028-03-31",
+      "summary": "Hardware-based security for processing-in-memory"
+    },
     {
       "name": "University of Neuchâtel",
       "position": "Postdoctoral researcher",
