@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://systopia.cs.ubc.ca/'>PostDoc | University of Neuchâtel</a>
+subtitle: <a href='https://systopia.cs.ubc.ca/'>PostDoc | UBC</a>
 
 profile:
   align: left
