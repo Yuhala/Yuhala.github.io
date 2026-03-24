@@ -9,9 +9,9 @@ profile:
   image: petman.jpg
   image_circular: true # crops the image to make it circular  
   more_info: >
-    <p>Rue 347-2366 Main Mall</p>
+    <p>347-2366 Main Mall</p>
     <p>Office: 347</p>   
-    <p>Vancouver, V6T 1Z4</p>
+    <p>Vancouver, V6T 1Z4</p><br>
     <a href='assets/pdf/cv-pyuhala.pdf'>CV</a>
     <a href='assets/pdf/thesis-peterson-yuhala.pdf'>PhD Thesis</a>
 
