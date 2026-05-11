@@ -20,7 +20,7 @@ latest_posts: false # includes a list of the newest posts.
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Hi there! Thanks for taking the time to visit. I am currently a postdoctoral fellow at the [Systopia Lab](https://systopia.cs.ubc.ca/) at [UBC, Vancouver](https://www.ubc.ca/). 
+Hi there! Thanks for taking the time to visit. I am currently a postdoctoral fellow at the [Systopia Lab](https://systopia.cs.ubc.ca/people.html) at [UBC, Vancouver](https://www.ubc.ca/). 
 
 My research is centered around [confidential computing](https://www.intel.com/content/dam/www/central-libraries/us/en/documents/confidential-computing-case-studies.pdf), and aims to enhance the practicality and security of trusted execution environments (TEEs).
 <!--and (more recently) [homomorphic encryption](https://www.ibm.com/topics/homomorphic-encryption#:~:text=Use%20cases-,Products,without%20needing%20to%20decrypt%20it.).-->
