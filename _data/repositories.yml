@@ -1,10 +1,14 @@
 github_users:
-  - Yuhala
+  - torvalds
+  - alshedivat
+
+repo_description_lines_max: 2
 
 github_repos:
-  - Yuhala/plinius
-  - Yuhala/elk-fraud-detection
-  - Yuhala/montsalvat
-  - Yuhala/coding-interview-university
-  - Yuhala/project-based-learning
-
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons

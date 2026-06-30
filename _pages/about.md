@@ -1,40 +1,34 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
-subtitle: <a href='https://systopia.cs.ubc.ca/'>PostDoc | UBC</a>
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: left
-  image: petman.jpg
-  image_circular: true # crops the image to make it circular  
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
-    <p>347-2366 Main Mall</p>
-    <p>Office: 347</p>   
-    <p>Vancouver, V6T 1Z4</p><br>
-    <a href='assets/pdf/cv-pyuhala.pdf'>CV</a>
-    <a href='assets/pdf/thesis-peterson-yuhala.pdf'>PhD Thesis</a>
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-latest_posts: false # includes a list of the newest posts.
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
-Hi there! Thanks for taking the time to visit. I am currently a postdoctoral fellow at the [Systopia Lab](https://systopia.cs.ubc.ca/people.html) at [UBC, Vancouver](https://www.ubc.ca/). 
 
-My research is centered around [confidential computing](https://www.intel.com/content/dam/www/central-libraries/us/en/documents/confidential-computing-case-studies.pdf), and aims to enhance the practicality and security of trusted execution environments (TEEs).
-<!--and (more recently) [homomorphic encryption](https://www.ibm.com/topics/homomorphic-encryption#:~:text=Use%20cases-,Products,without%20needing%20to%20decrypt%20it.).-->
-<!---I propose tools and techniques to facilitate adoption and enhance performance of TEE technologies like Intel SGX and ARM TrustZone.-->
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-I also do research on [processing-in-memory (PIM)](https://people.inf.ethz.ch/omutlu/pub/PrIM-UPMEM-Tutorial-Analysis-Benchmarking-SAFARI-Live-Seminar-2021-07-12-talk.pdf), a paradigm shift towards memory-centric (rather than traditional processor-centric) computing. Some of my current research focuses on developing software and hardware-based designs for securing PIM-based workloads. See my [research statement](/assets/pdf/research-statement-pyuhala.pdf) for more information on my past and current research. 
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Prior to UBC, I was a postdoctoral researcher at the University of Neuchâtel (UniNE), Switzerland, where I equally completed my PhD in Computer Science (*nominated for a Best Thesis Award*) on [Enhancing Security and Performance in Trusted Execution Environments](assets/pdf/thesis-peterson-yuhala.pdf) in February 2024, under the supervision of [Prof. Pascal Felber](http://members.unine.ch/pascal.felber/index.html), [Dr. Valerio Schiavoni](http://members.unine.ch/valerio.schiavoni/), and [Prof. Alain Tchana](https://perso.ens-lyon.fr/alain.tchana/).
-
-<!--Prior to UniNE, I earned a Computer Engineering diploma from the National Advanced School of Engineering (2018), Yaounde, Cameroon.-->
-
-In my free time I am an electronics hobbyist who loves tinkering with microcontrollers to build interesting [automation projects](https://github.com/Yuhala/pbl-electronics) or a tech tinkerer experimenting with the latest AI tools. When I've got a bit more breathing room, I dive into [Kali Linux](https://www.kali.org/) and explore the art of ethical hacking. I also manage [The Tech Hub](https://dtechub.github.io), a programming and technology blog.
- 
-
-<!---  I am passionate about microcontrollers, embedded systems, robotics -->
-
-
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

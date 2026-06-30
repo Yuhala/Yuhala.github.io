@@ -1,11 +1,8 @@
 ---
 layout: post
-title: Invited talk, University of Yaounde I
-date: 2022-12-19 10:00
+date: 2016-01-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Invited talk, University of Yaounde I
-
----
+A simple inline announcement with Markdown emoji! :sparkles: :smile:
