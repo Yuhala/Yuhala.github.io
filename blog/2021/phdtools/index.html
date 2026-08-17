@@ -1,0 +1,263 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Productivity tools for every PhD student | Peterson Yuhala </title> <meta name="author" content="Peterson Yuhala"> <meta name="description" content="useful software for graduate research."> <meta name="keywords" content="confidential computing, TEEs, processing-in-memory, systems security"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/p-logo.png?v=3663dcf521c885064fd249add8b2c72b"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://yuhala.github.io/blog/2021/phdtools/"> <script src="/assets/js/theme.js?v=0afe9f0ae161375728f7bcc5eb5b4ab4"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Peterson</span> Yuhala </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">Projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">Teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/news/">News </a> </li> <li class="nav-item "> <a class="nav-link" href="/awards/">Awards </a> </li> <li class="nav-item "> <a class="nav-link" href="/service/">Service </a> </li> <li class="nav-item "> <a class="nav-link" href="/personal/">Personal </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">Repositories </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Productivity tools for every PhD student</h1> <p class="post-meta"> Created on August 10, 2021 </p> <p class="post-tags"> <a href="/blog/2021"> <i class="fa-solid fa-calendar fa-sm"></i> 2021 </a> </p> </header> <article class="post-content"> <div id="markdown-content"> <blockquote> Life is too complicated not to be orderly. --Martha Stewart </blockquote> <p>Hey there! Today I will give you a list of essential software tools to increase your productivity as a PhD student or researcher. This guide is written based on my experience as a graduate student in systems research. However, some points made here may be applicable to a broader audience. I classify these tools into 6 main categories:</p> <ul> <li><a href="#notes-taking">Notes taking</a></li> <li><a href="#reference-manager">Reference manager</a></li> <li><a href="#typesetting-software">Typesetting software</a></li> <li><a href="#plotting-and-data-analysis">Plotting and data analysis</a></li> <li><a href="#diagram-software">Diagram Software</a></li> <li><a href="#video-conferencing-and-team-communication">Video conferencing and Team communication</a></li> </ul> <hr> <h2 id="notes-taking">Notes taking</h2> <p>As a PhD student or researcher, note taking is very essential, and you need to keep track of your ideas and thoughts as you go along. I recommend having both digital and manual note taking systems. For digital note taking <a href="https://evernote.com/" rel="external nofollow noopener" target="_blank">Evernote</a> is my favorite. Evernote is a very popular note taking software, is very flexible and helps you easily create notes with lists, images, links, etc. It synchronizes your data across various devices and provides browser plugins to search your notes via a normal google search, which I find pretty cool!</p> <p>In spite of the flexibility provided by digital note taking apps, sometimes its easier or more practical to write things down manually. For your manual note taking please get a <strong>book</strong>! Do not make the mistake I made of using sheets of paper because they will eventually pile up into a difficult-to-manage clutter.</p> <p>Evernote is also great for TODO lists, however the two I recommend for this purpose are <a href="https://asana.com/uses/to-do-list" rel="external nofollow noopener" target="_blank">Asana</a> and <a href="https://trello.com/en" rel="external nofollow noopener" target="_blank">Trello</a>.</p> <hr> <h2 id="reference-manager">Reference manager</h2> <p>Getting a reference manager is vital and will prevent you unnecessarily filling your folders with PDF files, or trying to manually organize scientific papers. This will always cause lots of confusion eventually (e.g. due to poor naming). I have been there and I can attest it is painful to manually scan through folders searching for paper <tt>no_name.pdf</tt> you downloaded on date <tt>i-cannot-remember</tt>. Getting a reference manager will help preserve your mental sanity and save you valuable time.</p> <p>For this my top recommendation is <a href="https://www.mendeley.com/download-reference-manager/" rel="external nofollow noopener" target="_blank">Mendeley</a>. It is very intuitive, free (up to 2GB of cloud storage) and helps maintain your bibliography in perfect order. It also provides browser plugins which help you to easily add PDF references to your library. A simple click in the desktop app synchronizes your online references with those locally stored on your PC. This is especially useful when you work on different machines. Mendeley also enables you generate reference lists automatically, which comes in handy during thesis and paper writing.</p> <p>Other good reference manager apps are <a href="https://www.zotero.org/" rel="external nofollow noopener" target="_blank">Zotero</a> and <a href="https://endnote.com/" rel="external nofollow noopener" target="_blank">Endnote</a>.</p> <hr> <h2 id="typesetting-software">Typesetting software</h2> <p>As you may have guessed, you will be doing lots of scientific writing as a researcher and PhD student. For this I recommend using <a href="https://www.latex-project.org/" rel="external nofollow noopener" target="_blank">LaTeX</a>. LaTeX is a high-quality typesetting software and is the de facto standard for the communication and publication of scientific documents. Luckily I got a good grip of LaTeX early on as a student; if you haven’t yet, fear not <img class="emoji" title=":hugs:" alt=":hugs:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f917.png" height="20" width="20">, it isn’t too late. You can find great LaTeX tutorials online on <a href="https://www.overleaf.com/learn/latex/Tutorials" rel="external nofollow noopener" target="_blank">Overleaf</a> and Youtube. Overleaf provides you with a complete, ready to go LaTeX environment in the cloud, and nice templates to start off your LaTeX projects; isn’t that cool ? <img class="emoji" title=":nerd_face:" alt=":nerd_face:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f913.png" height="20" width="20"></p> <p>I invite you to investigate LaTeX and learn how to use it; it is much better than MS-word, which is clunky and slow.</p> <hr> <h2 id="plotting-and-data-analysis">Plotting and data analysis</h2> <p>As a researcher (especially in the sciences), you will need tools to analyze your data and plot graphs for you presentations, posters, papers, and thesis. A good free tool for this is <a href="https://www.r-project.org/about.html" rel="external nofollow noopener" target="_blank">R</a>. It is a programming language used for various kinds of data science, statistics and visualization projects. The learning curve is a little steep but it is worth learning. There are so many Youtube videos and online tutorials which will make learning R alot easier for you.</p> <p>More particularly for plotting, a second free and useful tool is <a href="http://www.gnuplot.info/" rel="external nofollow noopener" target="_blank">Gnuplot</a>. The learning curve is also a little steep, but the great plots you will produce are worth the time and effort.</p> <hr> <h2 id="diagram-software">Diagram software</h2> <p>For your research, you will need to create beautiful figures for papers, posters, presentations, and finally your thesis. For these you will need good image creation software; don’t be that guy who scans hand-drawn diagrams and integrates these into his presentations <img class="emoji" title=":roll_eyes:" alt=":roll_eyes:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f644.png" height="20" width="20">. Two free image creation apps I recommend for this are <a href="https://www.yworks.com/products/yed" rel="external nofollow noopener" target="_blank">yEd</a> and <a href="https://inkscape.org/" rel="external nofollow noopener" target="_blank">Inkscape</a>. yEd is my personal favorite: it is simple yet powerful, very intuitive to use and lets you create decent figures in a very short time once you get a hold of it. On the other hand, Inkscape has great online tutorials which will help you learn quickly. I recently came across <a href="https://app.diagrams.net/" rel="external nofollow noopener" target="_blank">Draw.io</a>, a free online tool for making decent figures; you should check it out.</p> <p>If you use macOS, another alternative (not free) is <a href="https://www.omnigroup.com/omnigraffle/features/" rel="external nofollow noopener" target="_blank">OmniGraffle</a>.</p> <hr> <h2 id="video-conferencing-and-team-communication">Video conferencing and Team communication</h2> <p>The recent health crisis and lockdowns forced many out of the office, and kept us confined to our homes, away from family, friends and team mates. Thus, there has been a rising popularity of video conferencing and online communication tools.</p> <p>For video conferencing and team communication, I recommend <a href="https://discord.com/" rel="external nofollow noopener" target="_blank">Discord</a> and <a href="https://slack.com/intl/en-ch/" rel="external nofollow noopener" target="_blank">Slack</a> respectively. Both have free versions which are good enough for everyday usage. Another great free tool you can try for video conferencing is <a href="https://bigbluebutton.org/" rel="external nofollow noopener" target="_blank">BigBlueButton</a>. Other alternatives include <a href="https://zoom.us/" rel="external nofollow noopener" target="_blank">Zoom</a> and <a href="https://whereby.com/user" rel="external nofollow noopener" target="_blank">Whereby</a>. These have free and paid versions but the free versions are good enough for small and short online meetings.</p> <hr> <p>Now thats all I have for you today. I hope you find these tools useful for your work. Stay tuned for the next tips in my tech diaries <img class="emoji" title=":v:" alt=":v:" src="https://github.githubassets.com/images/icons/emoji/unicode/270c.png" height="20" width="20"> .</p> </div> </article> <br> <hr> <br> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <ul class="list-disc pl-7 my-3 space-y-2 marker:text-[var(--global-theme-color)]"> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2024/cbs/">The Cantor-Schröder-Bernstein theorem</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/2021/makefiles/">Programming with Makefiles</a> </li> </ul> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Peterson Yuhala. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=2930004b8d7fcd0a8e00fdcfc8fc9f24"></script> <script defer src="/assets/js/common.js?v=4a129fbf39254905f505c7246e641eaf"></script> <script defer src="/assets/js/copy_code.js?v=12775fdf7f95e901d7119054556e495f" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "Publications",
+          description: "Publications by year, generated from BibTeX",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "Selected research and side projects",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "Course material",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Curriculum vitae",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-awards",
+          title: "Awards",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/awards/";
+          },
+        },{id: "nav-service",
+          title: "Service",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/service/";
+          },
+        },{id: "nav-personal",
+          title: "Personal",
+          description: "Non-research interests",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/personal/";
+          },
+        },{id: "nav-repositories",
+          title: "Repositories",
+          description: "Selected GitHub profile and repositories",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
+        },{id: "post-the-cantor-schröder-bernstein-theorem",
+        
+          title: "The Cantor-Schröder-Bernstein theorem",
+        
+        description: "Intuitive proof of the Cantor-Schröder-Bernstein theorem",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/cbs/";
+          
+        },
+      },{id: "post-programming-with-makefiles",
+        
+          title: "Programming with Makefiles",
+        
+        description: "automate your builds with make.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/makefiles/";
+          
+        },
+      },{id: "post-productivity-tools-for-every-phd-student",
+        
+          title: "Productivity tools for every PhD student",
+        
+        description: "useful software for graduate research.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/phdtools/";
+          
+        },
+      },{id: "news-invited-talk-huawei-research-center-zurich",
+          title: 'Invited talk, Huawei Research Center Zurich  ---',
+          description: "",
+          section: "News",},{id: "news-invited-talk-university-of-yaounde-i",
+          title: 'Invited talk, University of Yaounde I  ---',
+          description: "",
+          section: "News",},{id: "news-stem-bootcamp-https-scienceprojectscmr-github-io-ensp-yaounde",
+          title: '[STEM bootcamp](https://scienceprojectscmr.github.io) (ENSP Yaounde)  ---',
+          description: "",
+          section: "News",},{id: "news-talk-dsn-2023-porto-portugal-june-27-30-https-dsn2023-dei-uc-pt",
+          title: '[Talk: DSN 2023 Porto, Portugal, June 27-30](https://dsn2023.dei.uc.pt/)  ---',
+          description: "",
+          section: "News",},{id: "news-confidential-computing-workshop-ascona-switzerland-oct-1-4-https-pages-cs-gitlab-unine-ch-csf-2023",
+          title: '[Confidential computing workshop, Ascona, Switzerland, Oct 1-4](https://pages.cs-gitlab.unine.ch/csf-2023/)  ---',
+          description: "",
+          section: "News",},{id: "news-talk-middleware-39-23-bologna-italy-dec-11-15-https-middleware-conf-github-io-2023-full-program",
+          title: '[Talk: Middleware&amp;#39;23, Bologna, Italy, Dec 11-15](https://middleware-conf.github.io/2023/full-program/)  ---',
+          description: "",
+          section: "News",},{id: "news-accepted-paper-at-opodis-23-tokyo-japan-https-vedliot-eu-paper-presentation-at-opodis23",
+          title: '[Accepted paper at OPODIS’23, Tokyo Japan](https://vedliot.eu/paper-presentation-at-opodis23/)  ---',
+          description: "",
+          section: "News",},{id: "news-my-phd-thesis-defense-private",
+          title: 'My PhD thesis defense (private)  ---',
+          description: "",
+          section: "News",},{id: "news-talk-at-the-39th-acm-sigapp-symposium-on-applied-computing-dads-track",
+          title: 'Talk at the 39th ACM/SIGAPP Symposium On Applied Computing - DADS track. ---...',
+          description: "",
+          section: "News",},{id: "news-accepted-paper-at-srds-39-24-charlotte-usa-https-srds-conference-org-index-html",
+          title: '[Accepted paper at SRDS&amp;#39;24, Charlotte, USA](https://srds-conference.org/index.html)  ---',
+          description: "",
+          section: "News",},{id: "news-our-paper-titled-quot-on-real-time-guarantees-of-intel-sgx-and-intel-tdx-quot-has-been-accepted-at-ecrts-39-25-https-www-ecrts-org-this-was-a-joint-effort-with-abb-research",
+          title: '[Our paper titled &amp;quot;On Real-Time Guarantees of Intel SGX and Intel TDX&amp;quot; has...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-quot-practical-secure-aggregation-by-combining-cryptography-and-trusted-execution-environments-quot-has-been-accepted-at-debs-39-25-https-2025-debs-org",
+          title: '[Our paper on &amp;quot;Practical Secure Aggregation by Combining Cryptography and Trusted Execution Environments&amp;quot;...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-quot-im-pir-in-memory-private-information-retrieval-quot-has-been-accepted-at-middleware-39-25-https-arxiv-org-pdf-2509-06514",
+          title: '[Our paper on &amp;quot;IM-PIR: In-Memory Private Information Retrieval&amp;quot; has been accepted at Middleware&amp;#39;25](https://arxiv.org/pdf/2509.06514)...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-quot-pim-cache-content-aware-copy-with-high-efficiency-quot-has-been-accepted-at-middleware-39-26-https-arxiv-org-pdf-2603-23762",
+          title: '[Our paper on &amp;quot;PIM-CACHE: Content-Aware Copy with High-Efficiency&amp;quot; has been accepted at Middleware&amp;#39;26](https://arxiv.org/pdf/2603.23762)...',
+          description: "",
+          section: "News",},{id: "news-i-have-been-awarded-a-fellowship-by-the-swiss-national-science-foundation-https-www-snf-ch-en-xizpfy3ivs5krrod-funding-careers-postdoc-mobility",
+          title: '[I have been awarded a fellowship by the Swiss National Science Foundation!](https://www.snf.ch/en/XIZpfY3iVS5KRRoD/funding/careers/postdoc-mobility) ---...',
+          description: "",
+          section: "News",},{id: "projects-embedded-development",
+          title: 'Embedded development',
+          description: "Embedded development with microcontrollers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/arduino/";
+            },},{id: "projects-elk-stack",
+          title: 'ELK stack',
+          description: "Simbox fraud detection with the ELK stack",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/elk/";
+            },},{id: "projects-image-processing-in-c",
+          title: 'Image processing in C++',
+          description: "C++ implementation for different image processing algorithms",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lena/";
+            },},{id: "projects-secure-ml",
+          title: 'Secure ML',
+          description: "Secure and persistent ML with Intel SGX",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/plinius/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/cv_peterson_yuhala.pdf", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%70%65%74%65%72%73%6F%6E%79%75%68%61%6C%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=9s2P3SQAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-3371-9228", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Yuhala", "_blank");
+        },
+      },{
+        id: 'social-gitlab',
+        title: 'GitLab',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://gitlab.com/Yuhala", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/peterson-yuhala-14009411a", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
