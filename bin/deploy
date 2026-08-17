@@ -101,8 +101,16 @@ bundle install
 # Build site
 bundle exec jekyll build
 
-# Purge unused css
-purgecss -c purgecss.config.js
+# Purge unused CSS when the tool is available. This is optional: the site
+# already ships compiled Tailwind CSS, and a missing global purgecss should
+# not abort deploy.
+if command -v purgecss >/dev/null 2>&1; then
+  purgecss -c purgecss.config.js
+elif command -v npx >/dev/null 2>&1; then
+  npx --yes purgecss -c purgecss.config.js
+else
+  echo "purgecss not found; skipping unused-CSS purge."
+fi
 
 # Delete and move files
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
