@@ -1,9 +1,31 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"Middleware":
+  url: https://middleware-conf.github.io/
+  color: "#c41e3a"
+
+"DSN":
+  url: https://dsn.ieee.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ECRTS":
+  url: https://www.ecrts.org/
+  color: "#1b4f72"
 
-"Vision":
-  color: "#009f36"
+"SRDS":
+  url: https://srds-conference.org/
+  color: "#1a5276"
+
+"SAC-DADS":
+  url: https://www.sigapp.org/sac/
+  color: "#196f3d"
+
+"OPODIS":
+  url: https://opodis.org/
+  color: "#6c3483"
+
+"DEBS":
+  url: https://debs.org/
+  color: "#b9770e"
+
+"VEE":
+  url: https://dl.acm.org/conference/vee
+  color: "#1a5276"

@@ -4,7 +4,7 @@ permalink: /personal/
 title: Personal
 description: Non-research interests
 nav: true
-nav_order: 6
+nav_order: 8
 ---
 
 I was once an indoor cat, but then developed the love for travel. Here is a list of the countries I've visited (or **_lived in_**) so far: M = months; Y = years.

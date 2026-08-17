@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SNSF Postdoc.Mobility Fellowhship
+title: SNSF Postdoc.Mobility Fellowship
 date: 2026-06-20 10:00
 inline: true
 related_posts: false
