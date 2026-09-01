@@ -31,6 +31,7 @@ latest_posts:
 Hi there! Thanks for taking the time to visit. I am currently a postdoctoral fellow at the [Systopia Lab](https://systopia.cs.ubc.ca/people.html) at [UBC, Vancouver](https://www.ubc.ca/).
 
 I am interested in making systems more secure while maintaining high performance. My research primarily explores hardware-based security mechanisms, such as [trusted execution environments (TEEs)](https://learn.microsoft.com/en-us/azure/confidential-computing/trusted-execution-environment), that enable secure processing of plaintext data, while also investigating cryptographic approaches, such as [homomorphic encryption (HE)](https://www.ibm.com/think/topics/homomorphic-encryption) and [multi-party computation (MPC)](https://digitalprivacy.ieee.org/publications/topics/what-is-multiparty-computation/), that enable computation on encrypted data. I leverage both hardware- (such as [in-memory processing](https://arxiv.org/pdf/2412.09144)) and software-based techniques to improve the performance, scalability, and practicality of these security solutions. 
+Simply put, **my research balances robust security with high performance** :star_struck:.
 <!--Some of my current research applies these techniques to privacy-preserving machine learning.-->
 
 <!--My research is centered around [confidential computing](https://www.intel.com/content/dam/www/central-libraries/us/en/documents/confidential-computing-case-studies.pdf), and aims to enhance the practicality and security of trusted execution environments (TEEs).
