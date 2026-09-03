@@ -6,7 +6,7 @@ inline: true
 related_posts: false
 ---
 
-[I have been awarded a fellowship by the Swiss National Science Foundation!](https://www.snf.ch/en/XIZpfY3iVS5KRRoD/funding/careers/postdoc-mobility)
+[I have been awarded a fellowship by the Swiss National Science Foundation!](https://data.snf.ch/grants/grant/242000)
 
 ---
 
