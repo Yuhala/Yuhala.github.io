@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbit — The Solar System</title>
+    <meta
+      name="description"
+      content="A cinematic journey through the Sun, planets, and their moons."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <canvas id="stars" aria-hidden="true"></canvas>
+    <div class="nebula" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="brand">
+        <a class="back-site" href="../">← Apps</a>
+        <a class="wordmark" href="#/" aria-label="Orbit home">
+          <span class="wordmark-mark"></span>
+          Orbit
+        </a>
+      </div>
+      <p class="eyebrow" id="eyebrow">The Solar System</p>
+      <div class="top-actions">
+        <button type="button" class="ghost" id="pause-btn" aria-pressed="false">
+          Pause
+        </button>
+        <label class="speed">
+          <span>Speed</span>
+          <input
+            id="speed"
+            type="range"
+            min="0.25"
+            max="3"
+            step="0.25"
+            value="1"
+          />
+        </label>
+      </div>
+    </header>
+
+    <section id="view-system" class="view view-system">
+      <div class="system-stage" id="system-stage">
+        <div class="system" id="system"></div>
+      </div>
+      <aside class="dossier" id="dossier" hidden>
+        <button type="button" class="icon-close" id="close-dossier" aria-label="Close">
+          ×
+        </button>
+        <p class="dossier-kicker" id="dossier-kicker"></p>
+        <h2 id="dossier-title"></h2>
+        <p class="dossier-tag" id="dossier-tag"></p>
+        <p class="dossier-copy" id="dossier-copy"></p>
+        <a class="cta" id="dossier-cta" href="#/">Explore system</a>
+        <dl class="stats" id="dossier-stats"></dl>
+        <ul class="facts" id="dossier-facts"></ul>
+      </aside>
+    </section>
+
+    <section id="view-planet" class="view view-planet" hidden>
+      <div class="planet-layout">
+        <article class="planet-copy">
+          <a class="back" href="#/">← The solar system</a>
+          <p class="dossier-kicker" id="planet-kicker"></p>
+          <h1 id="planet-title"></h1>
+          <p class="dossier-tag" id="planet-tag"></p>
+          <p class="dossier-copy" id="planet-copy"></p>
+          <dl class="stats" id="planet-stats"></dl>
+          <div class="moon-rail">
+            <h3>Orbital bodies</h3>
+            <div class="moon-cards" id="moon-cards"></div>
+          </div>
+        </article>
+        <div class="planet-stage" id="planet-stage">
+          <div class="local-system" id="local-system"></div>
+          <aside class="moon-note" id="moon-note" hidden>
+            <p class="dossier-kicker" id="moon-kicker">Satellite</p>
+            <h3 id="moon-title"></h3>
+            <p id="moon-copy"></p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <footer class="hint" id="hint">
+      Click a world to open its dossier. Explore to meet its moons.
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
