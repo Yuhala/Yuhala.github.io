@@ -1,0 +1,11 @@
+# Interactive browser apps hosted under /apps/<id>/
+# To add another one:
+# 1. Copy the project into apps/<id>/ with an index.html
+# 2. Add a thumbnail at assets/img/apps/<id>.png
+# 3. Append an entry below
+
+- id: orbit
+  title: Orbit
+  description: A cinematic tour of the solar system. Click a planet for its dossier, then explore its moons.
+  url: /apps/orbit/
+  img: assets/img/apps/orbit.png
