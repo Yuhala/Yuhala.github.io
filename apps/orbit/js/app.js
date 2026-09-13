@@ -57,13 +57,32 @@ function renderStats(el, rows) {
 }
 
 function paintWorld(el, body) {
-  const light =
-    body.id === "sun"
-      ? "none"
-      : `linear-gradient(var(--light, 210deg), transparent 36%, rgba(5, 3, 12, 0.58) 80%)`;
   el.style.width = `${body.size}px`;
   el.style.height = `${body.size}px`;
-  el.style.background = `${light}, ${body.surface ?? `radial-gradient(circle at 32% 30%, ${body.accent ?? "#fff"} 0 8%, ${body.color} 42%, #1a120c 100%)`}`;
+  el.style.backgroundColor = body.color ?? "#4a4038";
+
+  const light =
+    body.id === "sun"
+      ? "radial-gradient(circle at 32% 30%, rgba(255, 246, 200, 0.28), transparent 55%)"
+      : "linear-gradient(var(--light, 210deg), transparent 36%, rgba(5, 3, 12, 0.55) 82%)";
+  const fallback =
+    body.surface ??
+    `radial-gradient(circle at 32% 30%, ${body.accent ?? "#fff"} 0 8%, ${body.color} 42%, #1a120c 100%)`;
+
+  const apply = (base) => {
+    el.style.backgroundImage = `${light}, ${base}`;
+    el.style.backgroundSize = "cover, cover";
+    el.style.backgroundPosition = "center, center";
+  };
+
+  if (body.texture) {
+    apply(`url("${body.texture}")`);
+    const probe = new Image();
+    probe.onerror = () => apply(fallback);
+    probe.src = body.texture;
+    return;
+  }
+  apply(fallback);
 }
 
 function createWorldButton(body, className) {
@@ -123,8 +142,7 @@ function buildSystem() {
   }
   systemEl.append(buildAsteroids());
 
-  const sunBtn = createWorldButton({ ...SUN, size: 84, accent: "#fff6c8", color: "#ff9a2e" }, "sun");
-  sunBtn.style.background = "";
+  const sunBtn = createWorldButton({ ...SUN, size: 120, accent: "#fff6c8", color: "#ff9a2e" }, "sun");
   systemEl.append(sunBtn);
 
   for (const planet of PLANETS) {
@@ -292,7 +310,7 @@ function renderPlanetPage(id) {
   }
 
   const host = createWorldButton(
-    { ...planet, size: Math.max(planet.size * 2.8, 76) },
+    { ...planet, size: Math.min(Math.max(planet.size * 2.15, 96), 168) },
     "planet host",
   );
   host.style.left = "0px";
@@ -321,7 +339,7 @@ function showSystem() {
   viewSystem.hidden = false;
   document.title = "Orbit — The Solar System";
   eyebrow.textContent = "The Solar System";
-  hint.textContent = "Click a world to open its dossier. Explore to meet its moons.";
+  hint.textContent = "Click a world to open its dossier. Maps are NASA public-domain textures.";
   fitSystem(systemStage, systemEl, 620);
 }
 
