@@ -12,7 +12,7 @@ profile:
     <p>347-2366 Main Mall</p>
     <p>Office: 347</p>
     <p>Vancouver, V6T 1Z4</p>
-    <p><a href="assets/pdf/cv_peterson_yuhala.pdf">CV</a> · <a href="assets/pdf/thesis-peterson-yuhala.pdf">PhD Thesis</a></p>
+    <p><a href="assets/pdf/cv_peterson_yuhala-no-refs.pdf">CV</a> · <a href="assets/pdf/thesis-peterson-yuhala.pdf">PhD Thesis</a></p>
 
 selected_papers: true
 social: true
