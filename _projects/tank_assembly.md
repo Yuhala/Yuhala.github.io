@@ -8,5 +8,5 @@ category: fun
 ---
 
 Short assembly video for the 3D-printed mini tank.
-{% include video.liquid path="https://www.youtube.com/embed/gVWMdk5HRLE" class="img-fluid rounded z-depth-1" controls=true %}
+{% include video.liquid path="https://www.youtube.com/embed/eCsctkcET0M" class="img-fluid rounded z-depth-1" controls=true %}
 
