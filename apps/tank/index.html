@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tank</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #0b0d10;
+        color: #e8eaed;
+        font-family: Georgia, "Times New Roman", serif;
+      }
+      main {
+        width: min(960px, 100%);
+        padding: 1.5rem;
+        text-align: center;
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
+      h1 {
+        margin: 0 0 0.75rem;
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+        font-weight: 400;
+        letter-spacing: 0.02em;
+      }
+      p {
+        margin: 0.75rem 0 0;
+        color: #a8b0b8;
+        font-size: 1.05rem;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Tank</h1>
+      <img src="01_closed_front_left.png" alt="3D-printed mini tank assembly" />
+      <p>157 × 108 mm mini tank with dual N20 drive, ESP32-S3, and a pan camera.</p>
+    </main>
+  </body>
+</html>
