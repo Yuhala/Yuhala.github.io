@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Tank assembly
-description: Assembly short for the 3D-printed mini tank
-img: assets/img/apps/tank.png
+description: Short assembly video for the 3D-printed mini tank.
+img: assets/img/apps/tank_assembly.png
 importance: 1
 category: fun
 ---
