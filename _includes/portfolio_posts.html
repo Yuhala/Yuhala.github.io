@@ -1,0 +1,14 @@
+{% assign postlist = include.posts | default: site.posts %}
+<div class="pub-grid">
+  {% for post in postlist %}
+  <article class="card">
+    <time class="small faint" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%b %-d, %Y' }}</time>
+    <h3 class="pub-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h3>
+    {% if post.description %}
+    <p class="small muted">{{ post.description }}</p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>

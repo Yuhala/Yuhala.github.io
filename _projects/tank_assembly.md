@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: portfolio
 title: Tank assembly
 description: Short assembly video for the 3D-printed mini tank.
 img: assets/img/tank_assembly.png

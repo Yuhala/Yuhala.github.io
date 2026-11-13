@@ -6,7 +6,8 @@ description:
 nav: true
 nav_order: 7
 ---
-- [PC USENIX Security 2027](https://www.usenix.org/conference/usenixsecurity27)
+- [PC USENIX Security 2027](https://www.usenix.org/conference/usenixsecurity27/call-for-papers)
+- [PC EuroSys 2027](https://2027.eurosys.org/pc.html)
 - [PC Middleware 2026](https://middleware-conf.github.io/2026/program-committee/)
 - [PC RLDM 2025: Workshop on Reliable Large-scale Data Management](https://easychair.org/cfp/rldm25)
 - [PC DSN 2025 Doctoral Forum](https://dsn2025.github.io/cfdocforum.html)

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title:  Programming with Makefiles
 date:   2021-08-20 12:24
 description: automate your builds with make.

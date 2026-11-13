@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ site.first_name }} {{ site.last_name }} · Postdoctoral Fellow, UBC</title>
+    <title>
+      {%- if page.url == '/' -%}
+        {{ site.first_name }} {{ site.last_name }} · Postdoctoral Fellow, UBC
+      {%- else -%}
+        {{ page.title }} · {{ site.first_name }} {{ site.last_name }}
+      {%- endif -%}
+    </title>
     <meta name="description" content="{{ site.description | strip_html | strip }}" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <link rel="icon" href="{{ '/assets/img/p-logo.png' | relative_url }}" />
@@ -14,6 +20,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}" />
+    {% if page.collection == "posts" %}
+    <script>
+      window.MathJax = { tex: { inlineMath: [["$", "$"], ["\\(", "\\)"]], displayMath: [["$$", "$$"], ["\\[", "\\]"]] } };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
+    {% endif %}
     <script>
       (function () {
         try {
@@ -51,6 +63,7 @@
     </header>
 
     <main id="main">
+      {% if page.url == '/' %}
       <section id="bio" class="section bio">
         <div class="container bio-grid">
           <aside class="profile">
@@ -63,6 +76,7 @@
 
           <div class="bio-main">
             <div class="prose about">
+              <h2>About Me</h2>
               {{ content }}
             </div>
 
@@ -73,9 +87,6 @@
                 <span class="chip">Trusted Execution Environments</span>
                 <span class="chip">Processing-in-Memory</span>
                 <span class="chip">Systems Security</span>
-                <span class="chip">Secure Aggregation</span>
-                <span class="chip">Homomorphic Encryption</span>
-                <span class="chip">Operating Systems</span>
               </div>
             </div>
 
@@ -122,6 +133,16 @@
           {% endfor %}
         </ul>
         <p class="see-all"><a class="btn" href="{{ '/news/' | relative_url }}">All updates →</a></p>
+      </section>
+
+      <section id="blog" class="section container container-narrow">
+        <div class="section-head">
+          <h2>Blog</h2>
+          <div class="rule"></div>
+          <p class="section-subtitle small">{{ site.blog_description }}</p>
+        </div>
+        {% include portfolio_posts.html %}
+        <p class="see-all"><a class="btn" href="{{ '/blog/' | relative_url }}">All posts →</a></p>
       </section>
 
       <section id="papers" class="section container container-narrow">
@@ -219,26 +240,12 @@
         </div>
       </section>
 
-      <section id="apps" class="section container">
+      <section id="projects" class="section container">
         <div class="section-head">
-          <h2>App gallery</h2>
+          <h2>Projects</h2>
           <div class="rule"></div>
-          <p class="section-subtitle small">Browser experiments you can open without installing anything.</p>
         </div>
-        <div class="talk-grid">
-          <a class="card card-link" href="{{ '/apps/orbit/' | relative_url }}">
-            <h3 class="talk-title">Orbit</h3>
-            <p class="small muted">An interactive solar system with planet facts, moons, and NASA textures.</p>
-          </a>
-          <a class="card card-link" href="{{ '/apps/fpv3/' | relative_url }}">
-            <h3 class="talk-title">FPV3</h3>
-            <p class="small muted">A first-person browser experiment.</p>
-          </a>
-          <a class="card card-link" href="{{ '/apps/tank/' | relative_url }}">
-            <h3 class="talk-title">Tank</h3>
-            <p class="small muted">A small in-browser tank demo.</p>
-          </a>
-        </div>
+        {% include portfolio_projects.html %}
       </section>
 
       <section id="service" class="section container container-narrow">
@@ -248,13 +255,33 @@
         </div>
         <div class="prose">
           <ul>
-            <li><strong>2027</strong>: PC, <a href="https://www.usenix.org/conference/usenixsecurity27">USENIX Security</a></li>
+            <li><strong>2027</strong>: PC, <a href="https://www.usenix.org/conference/usenixsecurity27/call-for-papers">USENIX Security</a>; PC, <a href="https://2027.eurosys.org/pc.html">EuroSys</a></li>
             <li><strong>2026</strong>: PC, <a href="https://middleware-conf.github.io/2026/program-committee/">Middleware</a></li>
             <li><strong>2025</strong>: PC, RLDM workshop; PC, DSN Doctoral Forum</li>
             <li><strong>Artifact evaluation</strong>: ASPLOS 2024; USENIX OSDI 2021; EuroSys 2021</li>
           </ul>
         </div>
       </section>
+      {% elsif page.collection == "posts" %}
+      <article class="section container container-narrow post-article">
+        <p class="small muted"><a href="{{ '/blog/' | relative_url }}">← Blog</a></p>
+        <header class="section-head">
+          <h1>{{ page.title }}</h1>
+          <div class="rule"></div>
+          <p class="section-subtitle small">
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%B %-d, %Y' }}</time>
+            {% if page.description %} · {{ page.description }}{% endif %}
+          </p>
+        </header>
+        <div class="prose post-body">
+          {{ content }}
+        </div>
+      </article>
+      {% else %}
+      <section class="section container">
+        {{ content }}
+      </section>
+      {% endif %}
     </main>
 
     <footer class="site-footer">
