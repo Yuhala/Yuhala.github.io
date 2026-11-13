@@ -494,6 +494,25 @@ body.portfolio-body {
   gap: 1rem;
 }
 
+.publications-list ol.bibliography {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+.publications-list h2.bibliography,
+.publications-list h3.bibliography {
+  font-size: 1.15rem;
+  margin: 2rem 0 0.85rem;
+  color: var(--text);
+}
+
+.publications-list li {
+  list-style: none;
+}
+
 .talk-grid {
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
 }

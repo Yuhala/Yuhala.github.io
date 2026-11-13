@@ -1,14 +1,20 @@
 ---
-layout: page
+layout: portfolio
 permalink: /publications/
 title: Publications
-description: Publications by year, generated from BibTeX
-nav: true
-nav_order: 1
+description: Publications by year
+nav: false
 ---
 
-{% include bib_search.liquid %}
+<div class="section-head">
+  <h1>Publications</h1>
+  <div class="rule"></div>
+  <p class="section-subtitle">
+    Generated from BibTeX. Also on
+    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">Google Scholar</a>.
+  </p>
+</div>
 
-<div class="publications">
-{% bibliography %}
+<div class="publications-list">
+{% bibliography --template bib_card %}
 </div>
